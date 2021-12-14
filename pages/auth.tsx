@@ -6,7 +6,7 @@ export default function auth() {
         const parsedHash = new URLSearchParams(
             window.location.hash.substr(1) // skip the first char (#)
           );
-        let parse:string = parsedHash.get("access_token");
+        let parse:any = parsedHash.get("access_token");
         setToken(parse);
         localStorage.setItem('token',token);
         
