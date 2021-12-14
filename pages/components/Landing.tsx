@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './components/Footer'
+import Footer from './Footer'
 
 export const Landing: React.FC = () => {
     return (
@@ -29,3 +29,4 @@ export const Landing: React.FC = () => {
         </React.Fragment>
     )
 }
+export default Landing;
