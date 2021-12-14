@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
-export default function auth() {
+export default function Auth() {
     const [token, setToken] = useState<string>('');
     useEffect(() => {
         const parsedHash = new URLSearchParams(
             window.location.hash.substr(1) // skip the first char (#)
           );
         let parse:any = parsedHash.get("access_token");
-        setToken(parse);
+        setToken(parse);//krazy
         localStorage.setItem('token',token);
         
     }, [token])
