@@ -6,7 +6,7 @@ export default function Auth() {
         const parsedHash = new URLSearchParams(
             window.location.hash.substr(1) // skip the first char (#)
           );
-        let parse:any = parsedHash.get("access_token");
+        let parse: string = parsedHash.get("access_token") ?? '';
         setToken(parse);//krazy
         localStorage.setItem('token',token);
         
