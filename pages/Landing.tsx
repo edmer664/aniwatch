@@ -18,11 +18,9 @@ export const Landing: React.FC = () => {
                         </p>
                     </div>
                     <div className='w-full text-center '>
-                        <a href={`
-                        https://api.aniapi.com/v1/oauth?
-                        response_type=token
-                        &client_id=2d70a4c3-8754-42cf-b52f-32185a3e245b
-                        &redirect_uri=http://localhost:3000/auth`} className='bg-blue-700 rounded-md p-2 hover:bg-blue-900 ease-in duration-300'>Watch Now</a>
+                        <a 
+                        href={`https://api.aniapi.com/v1/oauth?response_type=token&client_id=2d70a4c3-8754-42cf-b52f-32185a3e245b&redirect_uri=http://localhost:3000/Auth`}
+                         className='bg-blue-700 rounded-md p-2 hover:bg-blue-900 ease-in duration-300'>Watch Now</a>
                     </div>
                 </div>
                 <img src="/img/hero_rimuru.png" alt="Hero Image" />
