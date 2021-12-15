@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className='bg-gray-800 text-white text-center h-max flex flex-col justify-around'>
+        <footer className='bg-slate-700 text-white text-center h-max flex flex-col justify-around'>
             <span className='py-3'>
                 <strong>Disclaimer:</strong> AniWatch is a no-profit project, we are not affiliated with<br/>
                 Anilist or MyAnimeList and we do not host illegal files.
