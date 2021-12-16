@@ -8,7 +8,7 @@ export default function SmallCard(props:{
     id: string,
 }) {
     return (
-        <div className='flex flex-col items-center text-white hover:animate-pulse hover:scale-105 w-24 h-48 m-6'>
+        <div className='flex flex-col items-center text-white hover:animate-pulse hover:scale-105 w-24 h-48 m-1 xl:m-6'>
             <a href={`anime/#id=${props.id}`}>
                 <div className='relative w-24 h-40'>
                     <Image
