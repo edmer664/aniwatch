@@ -1,0 +1,167 @@
+[33mcommit 9229f70373bc3b2d19393f38e525de949ed83664[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:43:45 2021 +0800
+
+    fix: add conditional formatting to map
+
+[33mcommit bb095377373c138cbff929433b5548c2a24ad026[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:41:38 2021 +0800
+
+    fix: add conditional formating
+
+[33mcommit ec76d902158aecd68f894a08a3c39bb6fe0dbe5a[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:36:42 2021 +0800
+
+    fix: change props data type to Array instead of tuple
+
+[33mcommit 2479eea66c0de538942e8871bc29c0a72e91c8ba[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:33:39 2021 +0800
+
+    fix: change routes to lower case
+
+[33mcommit 5b17ee48cb6aaf9871020f0b1cbcbdd2c8b7a82e[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:32:58 2021 +0800
+
+    fix: typo in OAuth URI
+
+[33mcommit 2283d7344703e739d90d808480662134aaf8d6e7[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:32:14 2021 +0800
+
+    feat: add genre to BigCard component
+
+[33mcommit f7b1451432626b34e51683d75a578bc8cb306c87[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:31:35 2021 +0800
+
+    fix: typo in import for SmallCard component
+
+[33mcommit fcb5805db84d76fdd3bc415da046178cbcdd752a[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Thu Dec 16 12:30:46 2021 +0800
+
+    fix: change routes casing to lower case
+
+[33mcommit 32e8672854bdf52ec2541b4f259e7d8233bb874a[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 14:32:31 2021 +0800
+
+    UPDATE: fixed home page
+
+[33mcommit fc0f94f420b67f99cee9d6e08b78a8ff38a41203[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:57:02 2021 +0800
+
+    hover focus
+
+[33mcommit d665ed629ca85bbc8f738f9c914204add31ea91b[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:56:50 2021 +0800
+
+    Update:design hover and focus
+
+[33mcommit 2ef6be3bcc7391b3f8cea734e66c649fc6b45683[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:56:26 2021 +0800
+
+    UPDATE:color
+
+[33mcommit 2df77825e0edd736294cb08c42fa24483f9d68b6[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:56:11 2021 +0800
+
+    initial commit
+
+[33mcommit 1fd91670ed7572ccd7bd5c2484379725635bd55d[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:55:50 2021 +0800
+
+    new dependencies reacttypes
+
+[33mcommit 0e5030707443d514be95ca41f78d62f78bf87772[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Wed Dec 15 09:55:27 2021 +0800
+
+    Update: placed Bigcard
+
+[33mcommit 9ed0ab333c0954d697ceee23fef11336a66000d3[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 14:11:18 2021 +0800
+
+    UPDATE: beta page
+
+[33mcommit 2b38d5af99decadd0c9c1da76196d2dd27817471[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 11:59:37 2021 +0800
+
+    UPDATE:Link
+
+[33mcommit f16b5fc92247cfeca17d28f63374044baf05fe65[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 11:53:46 2021 +0800
+
+    UPDATE: REDIRECT LINK
+
+[33mcommit 393097bb5e5da41009faa6137e0af9370ac0d427[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 11:48:44 2021 +0800
+
+    FIX: build error
+
+[33mcommit 6a62c41f4549803235507ee8c9d6c2291ceaacd7[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 11:48:28 2021 +0800
+
+    MOVE:landing to ./components/Landing
+
+[33mcommit 7a368e86fbfa93dbc344a8a5da0744a7a9147a67[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 11:47:56 2021 +0800
+
+    UPDATE:downgrade nextjs
+
+[33mcommit 1c3fc8c7f2699542da90c9aafa69f98841b700f5[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 10:37:42 2021 +0800
+
+    FIX:URL error fix
+
+[33mcommit 25001131205b3b3060c8cbc410f52e4a45ec3913[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 10:37:02 2021 +0800
+
+    UPDATE: dependencies
+
+[33mcommit cc66d12e5803d676f7f896d8662022e1c877e245[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 10:26:11 2021 +0800
+
+    Type changes
+
+[33mcommit 29150fb2d7015dc6803af82bcbb088ef81928eaa[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 09:48:21 2021 +0800
+
+    UPDATE: name capitalization
+
+[33mcommit ebe4220bea5ea468b8df9301c6804f46beb60227[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 09:44:43 2021 +0800
+
+    UPDATE: type for parse to any
+
+[33mcommit 413dcb5abc8898caf7cd54e4a241958c0a96f05b[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Tue Dec 14 09:39:59 2021 +0800
+
+    initial commit
+
+[33mcommit 7acc486176e63640e9f5dc910c84c6ed8c78f842[m
+Author: Edmerson Pizarra <edmerpizarra@gmail.com>
+Date:   Sat Dec 11 20:31:55 2021 +0800
+
+    Initial commit from Create Next App
