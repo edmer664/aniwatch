@@ -8,7 +8,7 @@ export default function BigCard(
         title: string,
         desc: string,
         link: string,
-        genres: [string],
+        genres: Array<string>,
 
 }) {
     
