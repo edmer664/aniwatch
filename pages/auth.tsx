@@ -11,7 +11,7 @@ export default function Auth() {
                 window.location.hash.substr(1) // skip the first char (#)
             );
             let parse: string = parsedHash.get("access_token") ?? '';
-            setToken(parse);//
+            setToken(parse);
             localStorage.setItem('token',token);
         }
     }, [token])
@@ -32,7 +32,7 @@ export default function Auth() {
                 <span className="pb-5">
                     You can now proceed to watch awesome anime!
                 </span>
-                <a href="/Watch" className='bg-sky-600 rounded-md p-2 hover:bg-sky-900'>Continue</a>
+                <a href="/watch" className='bg-sky-600 rounded-md p-2 hover:bg-sky-900'>Continue</a>
             </main>
             <Footer/>
         </React.Fragment>
