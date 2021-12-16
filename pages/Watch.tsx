@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 const ANIAPI = require("@mattplays/aniapi");
 import Image from 'next/image';
-import SmallCard from './components/smallCard';
+import SmallCard from './components/SmallCard';
 
 export default function Watch() {
     const [token, setToken] = useState<string>('');
@@ -12,6 +12,7 @@ export default function Watch() {
     const [seasonW, setSeasonW] = useState<string>();
     const [year, setYear] = useState<any>();
     const API = new ANIAPI.API(token);
+    
     useEffect(() => {
         if(typeof window !== 'undefined'){
             let cookie: string = localStorage.getItem('token') ?? '';
@@ -19,6 +20,8 @@ export default function Watch() {
                 cookie
             );
         }
+        
+        
         const yeartd = new Date().getFullYear();
         const getSeason = (d: Date) => Math.floor((d.getMonth() / 12 * 4)) % 4;
         const currSeason = getSeason(new Date());
@@ -30,13 +33,15 @@ export default function Watch() {
             year:yeartd,
             season:currSeason,
         }).then((res:any) => {
+            
             setData(res);
             console.log(res)
             console.log("______________")
             console.log(data);
             console.log("working");
+            console.log(data);
+            
         });
-        console.log(data);
         
         
     }, [])
@@ -62,8 +67,9 @@ export default function Watch() {
                     img_url={data.data.documents[0].banner_image}
                     img_alt={data.data.documents[0].titles.en}
                     title={data.data.documents[0].titles.en}
-                    desc={data.data.documents[0].descriptions.en.substring(0,500)}
+                    desc={data.data.documents[0].descriptions.en.substring(0,400)}
                     link={`anime/#id=${data.data.documents[0].id}`}
+                    genres = {data.data.documents[0].genres.slice(0,7)}
                     />
                     }
                     
@@ -83,7 +89,7 @@ export default function Watch() {
                                     img_alt={anime.titles.en}
                                     img_url={anime.cover_image}
                                     title={anime.titles.en}
-
+                                    
                                     />
 
                                 )
