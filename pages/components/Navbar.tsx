@@ -18,8 +18,8 @@ export default function Navbar() {
                 </span>
             </div>
             <div className='flex justify-around w-1/5'>
-                <a className='hover:text-slate-400' href="/Watch">Home</a>
-                <a className='hover:text-slate-400'  href="/Explore">Explore</a>
+                <a className='hover:text-slate-400' href="/watch">Home</a>
+                <a className='hover:text-slate-400'  href="/explore">Explore</a>
             </div>
             <div className='flex'>
                 <form >
