@@ -19,7 +19,7 @@ export default function SmallCard(props:{
                     />
                 </div>
                 <h2 className='text-xs'>
-                    {props.title.substring(0,45)}
+                    {props.title && props.title.substring(0,45)}
                 </h2>
             </a>
             
