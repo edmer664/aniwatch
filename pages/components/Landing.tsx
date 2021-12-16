@@ -18,8 +18,9 @@ export const Landing: React.FC = () => {
                         </p>
                     </div>
                     <div className='w-full text-center '>
+                        {/* Change the url before pushing to production environment */}
                         <a 
-                        href={`https://api.aniapi.com/v1/oauth?response_type=token&client_id=2d70a4c3-8754-42cf-b52f-32185a3e245b&redirect_uri=http://localhost:3000/Auth`}
+                        href={`https://api.aniapi.com/v1/oauth?response_type=token&client_id=2d70a4c3-8754-42cf-b52f-32185a3e245b&redirect_uri=http://localhost:3000/auth`}
                          className='bg-blue-700 rounded-md p-2 hover:bg-blue-900 ease-in duration-300 drop-shadow-md shadow-blue-500 shadow-inner motion-safe:animate-pulse'>Watch Now</a>
                     </div>
                 </div>
