@@ -32,7 +32,7 @@ export default function BigCard(
                     {props.desc}
                 </p>
                 <div className='flex flex-wrap'>
-                    {props.genres.map(
+                    {props.genres && props.genres.map(
                         (genre) => (
                             <div className='p-1.5 bg-gray-400 rounded-md hover:bg-gray-500 m-1 duration-100 transition-all'>
                                 <a href={`/Explore#genre=${genre}`}>
