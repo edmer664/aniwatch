@@ -54,12 +54,13 @@ export default function Watch() {
                                 alt="chibi thumbs up"
                             />
                         </div>
-                        <h1 className='font-bold xl:text-5xl py-5 text-2xl'>
-                            New Anime!
+                        <h1 className='font-bold xl:text-4xl py-5 text-2xl'>
+                            Top New Anime!
                         </h1>
                     </div>
                     {
                     <PulseLoader
+                    css={`padding:10rem`}
                     color='#ffffff'
                     loading={loading}
                     size={15}
@@ -95,6 +96,7 @@ export default function Watch() {
                     </div>
                     {
                     <PulseLoader
+                    css={`padding:10rem`}
                     color='#ffffff'
                     loading={loading}
                     size={15}
